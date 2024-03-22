@@ -14,11 +14,9 @@ ul {
 
 .visually-hidden {
     clip-path: inset(50%);
-    height: 1px;
     overflow: hidden;
-    position: absolute;
     white-space: nowrap;
-    width: 1px;
+    
 }
 
 
@@ -150,7 +148,9 @@ ul {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+    background-color: #FFFFFF;
+}
 
 .team-image {}
 
@@ -159,7 +159,6 @@ ul {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        background-color: #FFFFFF;
         text-align: center;
         color: #2e2f42;
 }
