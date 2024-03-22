@@ -13,16 +13,12 @@ ul {
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
+    clip-path: inset(50%);
     height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
     overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 
@@ -152,9 +148,7 @@ ul {
         color: #2e2f42;
 }
 
-.team-list {
-    background-color: #FFFFFF
-}
+.team-list {}
 
 .team-item {}
 
@@ -165,6 +159,7 @@ ul {
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        background-color: #FFFFFF;
         text-align: center;
         color: #2e2f42;
 }
@@ -221,7 +216,8 @@ ul {
 }
 
 .footer-logo {
-    font-weight: 700;
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
